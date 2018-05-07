@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+
+      let tree = new Object("plant","tree",1.5,"green");
+      let water = new Object("fluid","water",0,"clear");
+
+      function Object(type,name,height, colour){
+        this.type = type;
+        this.name = name;
+        this.height = height;
+        this.colour = colour;
+
+        Object.prototype.metricHeight = heightUnits;
+
+        function heightUnits(){
+          var height = " meters";
+          height = this.height + height;
+          return height;
+        }
+      }
+
+    document.write(water.metricHeight());
+  </script>
+</body>
+</html>
