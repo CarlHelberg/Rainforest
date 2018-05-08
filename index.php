@@ -11,15 +11,15 @@
     <!--Font Awesome-->
     <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel = "stylesheet" href = "css/style.css">
-    <title>Shawpify</title>
+    <title>Rainforest</title>
 </head>
 <body>
     <!-- header-->
     <header>
       <div class = "container-fluid">
         <div class = "jumbotron text-center">
-          <h1>Shawpify</h1>
-          <p>Offering a wide range of products from consumer electronics to cars</p>
+          <h1>Rain<em>f</em>orest</h1>
+          <p>Offering a wide range of products and gifts for every occasion and every need!</p>
         </div>
       </div>
     </header>
@@ -33,7 +33,7 @@
             <span class = "icon-bar"></span>
 
           </button>
-          <a class = "navbar-brand" href = "index.php">Shawpify Home </a>
+          <a class = "navbar-brand" href = "index.php">Rain<em>f</em>orest Home </a>
         </header>
       <div class ="collapse navbar-collapse" id ="myNavbar">
         <ul class = "nav navbar-nav">
@@ -53,17 +53,119 @@
     </nav>
     <!--Main-->
   <main>
-    <div class = "container-fluid">
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-      <p>Hello, world!</p>
-    </div>  
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-md-3">
+          <p class = "lead">Product range</p>
+          <p>Cars</p>
+          <div class = "list-group">
+            <a href = "#" class = "list-group-item"> Catagory 1</a>
+            <a href = "#" class = "list-group-item"> Catagory 2</a>
+            <a href = "#" class = "list-group-item"> Catagory 3</a>
+          </div>
+          <p>Computors</p>
+          <div class = "list-group">
+            <a href = "#" class = "list-group-item"> Catagory 4</a>
+            <a href = "#" class = "list-group-item"> Catagory 5</a>
+            <a href = "#" class = "list-group-item"> Catagory 6</a>
+          </div>
+        </div>
+
+        <div class = "col-md-9"> <!-- Carousel start -->
+
+          <div class = ""> <!-- Carousel contents -->
+            <div id = "carousel-example-generic" class = "carousel slide" data-ride = "carousel">
+              <ol class = "carousel-indicators">
+                <li data-target = "#carousel-example-generic" data-slide-to = "0" class = "active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <div class = "carousel-inner">
+                <div class = "item active">
+                  <img class = "slide-image" src = "images/car1.jpg" alt = "">
+                </div>
+                <div class = "item">
+                  <img class = "slide-image" src = "images/car2.jpg" alt = "">
+                </div>
+                <div class = "item">
+                  <img class = "slide-image" src = "images/car3.jpg" alt = "">
+                </div>
+              </div>
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+          </div>
+              <div class = "row">
+                  <div class = "col-md-4">
+                    <div class = "thumbnail">
+                      <img src = "http://placehold.it/320x150" alt = "thumbnail image">
+                      <div class = "caption">
+                        <h4 class = "pull-right">R199 999.99</h4>
+                        <h4><a href = "#"></a>A Product</h4>
+                        <p>This is a product description</p>
+                      </div>
+                        <div class = "ratings">
+                          <p class = "pull-right">107 Reviews</p>
+                          <p>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star-empty"></span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class = "col-md-4">
+                    <div class = "thumbnail">
+                      <img src = "http://placehold.it/320x150" alt = "thumbnail image">
+                      <div class = "caption">
+                        <h4 class = "pull-right">R299 999.99</h4>
+                        <h4><a href = "#"></a>A Product</h4>
+                        <p>This is a product description</p>
+                      </div>
+                        <div class = "ratings">
+                          <p class = "pull-right">200 Reviews</p>
+                          <p>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star-empty"></span>
+                              <span class = "glyphicon glyphicon-star-empty"></span>
+                              <span class = "glyphicon glyphicon-star-empty"></span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class = "col-md-4">
+                    <div class = "thumbnail">
+                      <img src = "http://placehold.it/320x150" alt = "thumbnail image">
+                      <div class = "caption">
+                        <h4 class = "pull-right">R399 999.99</h4>
+                        <h4><a href = "#"></a>A Product</h4>
+                        <p>This is a product description</p>
+                      </div>
+                        <div class = "ratings">
+                          <p class = "pull-right">17 Reviews</p>
+                          <p>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star"></span>
+                              <span class = "glyphicon glyphicon-star-empty"></span>
+                          </p>
+                        </div>
+                    </div>
+                  </div>
+              </div> <!-- Thumbnail row end-->
+        </div> <!-- carousel contents col md 9 end -->
+      </div> <!--row end wrapper for carousel & product lsit-->
+    </div><!-- Main container end-->
   </main>
 
 
@@ -86,12 +188,14 @@
       </div>
     </nav>
   </footer>
+  <!--JAVASCRIPT-->
+	<!--JQuery-->
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js' integrity='sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=' crossorigin='anonymous'></script>
 
+	<!--Bootstrap JS-->
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<!--Custom JS-->
+
 </body>
 </html>
